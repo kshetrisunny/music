@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary header">
+    <div class="container-fluid">
+    <h3 class="title">Suzie Zeldin</h3>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" (click)="toggleNavbar()">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse menuItem" id="navbarSupportedContent" [ngClass]="{ 'show': isNavbarCollapsed }">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Albums</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Music</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Videos</a>
+          </li>
+        </ul>
+        <div class="connectbtn">
+            <button class="btn">Connect With Me</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<!-- <div class="header">
+    <nav class="navbar navbar-expand-lg menuitems">
+        <ul class="nav">
+            <li class="nav-item"><a>Home</a></li>
+            <li class="nav-item"><a>About Me</a></li>
+            <li class="nav-item"><a>Albums</a></li>
+            <li class="nav-item"><a>Music</a></li>
+            <li class="nav-item"><a>Videos</a></li>
+        </ul>
+    </nav>
+    <div class="connectbtn">
+        <button class="btn">Connect With Me</button>
+    </div>
+</div> -->
